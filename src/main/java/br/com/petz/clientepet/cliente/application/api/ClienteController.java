@@ -19,5 +19,4 @@ public class ClienteController implements ClienteAPI {
 		log.info("[finaliza] ClienteController = postCliente");
 		return clienteCriado;
 	}
-
 }
