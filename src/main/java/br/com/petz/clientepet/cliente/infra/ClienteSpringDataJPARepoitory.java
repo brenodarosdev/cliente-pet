@@ -7,5 +7,5 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import br.com.petz.clientepet.cliente.domain.Cliente;
 
 public interface ClienteSpringDataJPARepoitory extends JpaRepository<Cliente, UUID> {
-
+	
 }
