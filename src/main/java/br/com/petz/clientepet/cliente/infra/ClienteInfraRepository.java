@@ -39,6 +39,7 @@ public class ClienteInfraRepository implements ClienteRepository {
 		log.info("[inicia] ClienteInfraRepository - buscaClienteAtravesId");
 		Cliente cliente = clienteSpringDataJPARepository.findById(idCliente)
 				.orElseThrow(() -> APIException.build(HttpStatus.NOT_FOUND, "Cliente não encontrado!"));
+//				.orElseThrow(() -> new RuntimeException("Cliente não encontrado!"));
 		log.info("[finaliza] ClienteInfraRepository - buscaClienteAtravesId");
 		return cliente;
 	}
