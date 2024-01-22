@@ -28,6 +28,7 @@ public class Pet {
 	@Column(columnDefinition = "uuid", name = "idPet", updatable = false, unique = true, nullable = false)
 	private UUID idPet;
 	@NotNull
+	@Column(columnDefinition = "uuid", name = "idClienteTutor", nullable = false)
 	private UUID idClienteTutor;
 	@NotBlank
 	private String nomePet;
