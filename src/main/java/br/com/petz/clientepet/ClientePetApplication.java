@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/")
 public class ClientePetApplication {
+//	http://localhost:8080/cliente-pet/api/swagger
+//	http://localhost:8080/cliente-pet/api/swagger-ui/index.html
 	
 	@GetMapping
 	public String getHomeTeste() {
